@@ -3,9 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { changeLanguage } from "../features/language/langSlice";
 import styled from "styled-components";
-import { ref } from "firebase/database";
-import { db } from "../utils/firebaseConfig";
-import { setDomain, setName } from "../features/quiz/user";
+import { setDomain, setName, setError } from "../features/quiz/user";
 import { ifSubmit } from "../features/submit/submit";
 import { reset } from "../features/quiz/qcount";
 
@@ -37,6 +35,7 @@ function Home() {
     dispatch(setName(""));
     dispatch(ifSubmit(false));
     dispatch(reset());
+    dispatch(setError(""));
   };
 
   return (

@@ -12,6 +12,8 @@ import {
   FooterBtn,
 } from "../StyledComponents/HomeStyle";
 import styled from "styled-components";
+import { db } from "../../utils/firebaseConfig";
+import { doc, updateDoc } from "firebase/firestore";
 function Question({ data }) {
   const qcount = useSelector((state) => state.qcount.value);
   const count = useSelector((state) => state.count.value);
@@ -37,6 +39,13 @@ function Question({ data }) {
       dispatch(next());
       setAns(0);
     } else {
+      const currentuser = dbdata.find((item) => item.user == user.name);
+      let newData = {
+        score: result,
+      };
+      console.log("updating score");
+      const docRef = doc(db, user.domain, currentuser.id);
+      updateDoc(docRef, newData);
       dispatch(ifSubmit(true));
     }
 
