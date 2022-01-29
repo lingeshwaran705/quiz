@@ -782,7 +782,319 @@ export const app = [
   },
 ];
 
-export const Arvr = [
+export const arvr = [
+  {
+    id: 0,
+    question: "1. CSS stans for",
+    answerOptions: [
+      { id: 0, ansText: "Cascade Styled Sheets", isTrue: false },
+      { id: 1, ansText: "Cascading Styled Sheets", isTrue: true },
+      { id: 2, ansText: "Concatinating Styled Sheets", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 1,
+    question: "2. How can you integrate CSS with HTML",
+    answerOptions: [
+      { id: 0, ansText: "inline-styling", isTrue: false },
+      { id: 1, ansText: "style tag", isTrue: false },
+      { id: 2, ansText: "link", isTrue: false },
+      { id: 3, ansText: "All the above", isTrue: true },
+    ],
+  },
+  {
+    id: 2,
+    question: "3. SASS is a",
+    answerOptions: [
+      { id: 0, ansText: "CSS library", isTrue: false },
+      { id: 1, ansText: "CSS framework", isTrue: false },
+      { id: 2, ansText: "CSS preprocessor", isTrue: true },
+      { id: 3, ansText: "CSS toolkit", isTrue: false },
+    ],
+  },
+  {
+    id: 3,
+    question:
+      "4. The property in CSS used to change the background color of an element is ",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: false },
+      { id: 2, ansText: "backgroundColor", isTrue: false },
+      { id: 3, ansText: "background-color", isTrue: true },
+    ],
+  },
+  {
+    id: 4,
+    question: "5. We can change the text color using",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: true },
+      { id: 2, ansText: "background-color", isTrue: false },
+      { id: 3, ansText: "All of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 5,
+    question: "6. How to controll the elements font size",
+    answerOptions: [
+      { id: 0, ansText: "text-style", isTrue: false },
+      { id: 1, ansText: "text-syze", isTrue: false },
+      { id: 2, ansText: "font-size", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: true },
+    ],
+  },
+  {
+    id: 6,
+    question: "7. HTML attribute used to define the inline styled is",
+    answerOptions: [
+      { id: 0, ansText: "style ", isTrue: true },
+      { id: 1, ansText: "styled", isTrue: false },
+      { id: 2, ansText: "class", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 7,
+    question: "8. CSS property to change text bold is",
+    answerOptions: [
+      { id: 0, ansText: "weight", isTrue: false },
+      { id: 1, ansText: "bold", isTrue: false },
+      { id: 2, ansText: "font-boldness", isTrue: false },
+      { id: 3, ansText: "font-weight", isTrue: true },
+    ],
+  },
+  {
+    id: 8,
+    question: "9. Property used to specify the transparency of an element is",
+    answerOptions: [
+      { id: 0, ansText: "transparent", isTrue: false },
+      { id: 2, ansText: "opacity", isTrue: true },
+      { id: 1, ansText: "filter", isTrue: false },
+      { id: 3, ansText: "visibility", isTrue: false },
+    ],
+  },
+  {
+    id: 9,
+    question: "10. How to select element with class name?",
+    answerOptions: [
+      { id: 0, ansText: ".element", isTrue: true },
+      { id: 1, ansText: "#element", isTrue: false },
+      { id: 2, ansText: "~element", isTrue: false },
+      { id: 3, ansText: "^element", isTrue: false },
+    ],
+  },
+];
+
+export const iot = [
+  {
+    id: 0,
+    question: "1. CSS stans for",
+    answerOptions: [
+      { id: 0, ansText: "Cascade Styled Sheets", isTrue: false },
+      { id: 1, ansText: "Cascading Styled Sheets", isTrue: true },
+      { id: 2, ansText: "Concatinating Styled Sheets", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 1,
+    question: "2. How can you integrate CSS with HTML",
+    answerOptions: [
+      { id: 0, ansText: "inline-styling", isTrue: false },
+      { id: 1, ansText: "style tag", isTrue: false },
+      { id: 2, ansText: "link", isTrue: false },
+      { id: 3, ansText: "All the above", isTrue: true },
+    ],
+  },
+  {
+    id: 2,
+    question: "3. SASS is a",
+    answerOptions: [
+      { id: 0, ansText: "CSS library", isTrue: false },
+      { id: 1, ansText: "CSS framework", isTrue: false },
+      { id: 2, ansText: "CSS preprocessor", isTrue: true },
+      { id: 3, ansText: "CSS toolkit", isTrue: false },
+    ],
+  },
+  {
+    id: 3,
+    question:
+      "4. The property in CSS used to change the background color of an element is ",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: false },
+      { id: 2, ansText: "backgroundColor", isTrue: false },
+      { id: 3, ansText: "background-color", isTrue: true },
+    ],
+  },
+  {
+    id: 4,
+    question: "5. We can change the text color using",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: true },
+      { id: 2, ansText: "background-color", isTrue: false },
+      { id: 3, ansText: "All of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 5,
+    question: "6. How to controll the elements font size",
+    answerOptions: [
+      { id: 0, ansText: "text-style", isTrue: false },
+      { id: 1, ansText: "text-syze", isTrue: false },
+      { id: 2, ansText: "font-size", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: true },
+    ],
+  },
+  {
+    id: 6,
+    question: "7. HTML attribute used to define the inline styled is",
+    answerOptions: [
+      { id: 0, ansText: "style ", isTrue: true },
+      { id: 1, ansText: "styled", isTrue: false },
+      { id: 2, ansText: "class", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 7,
+    question: "8. CSS property to change text bold is",
+    answerOptions: [
+      { id: 0, ansText: "weight", isTrue: false },
+      { id: 1, ansText: "bold", isTrue: false },
+      { id: 2, ansText: "font-boldness", isTrue: false },
+      { id: 3, ansText: "font-weight", isTrue: true },
+    ],
+  },
+  {
+    id: 8,
+    question: "9. Property used to specify the transparency of an element is",
+    answerOptions: [
+      { id: 0, ansText: "transparent", isTrue: false },
+      { id: 2, ansText: "opacity", isTrue: true },
+      { id: 1, ansText: "filter", isTrue: false },
+      { id: 3, ansText: "visibility", isTrue: false },
+    ],
+  },
+  {
+    id: 9,
+    question: "10. How to select element with class name?",
+    answerOptions: [
+      { id: 0, ansText: ".element", isTrue: true },
+      { id: 1, ansText: "#element", isTrue: false },
+      { id: 2, ansText: "~element", isTrue: false },
+      { id: 3, ansText: "^element", isTrue: false },
+    ],
+  },
+];
+
+export const robotics = [
+  {
+    id: 0,
+    question: "1. CSS stans for",
+    answerOptions: [
+      { id: 0, ansText: "Cascade Styled Sheets", isTrue: false },
+      { id: 1, ansText: "Cascading Styled Sheets", isTrue: true },
+      { id: 2, ansText: "Concatinating Styled Sheets", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 1,
+    question: "2. How can you integrate CSS with HTML",
+    answerOptions: [
+      { id: 0, ansText: "inline-styling", isTrue: false },
+      { id: 1, ansText: "style tag", isTrue: false },
+      { id: 2, ansText: "link", isTrue: false },
+      { id: 3, ansText: "All the above", isTrue: true },
+    ],
+  },
+  {
+    id: 2,
+    question: "3. SASS is a",
+    answerOptions: [
+      { id: 0, ansText: "CSS library", isTrue: false },
+      { id: 1, ansText: "CSS framework", isTrue: false },
+      { id: 2, ansText: "CSS preprocessor", isTrue: true },
+      { id: 3, ansText: "CSS toolkit", isTrue: false },
+    ],
+  },
+  {
+    id: 3,
+    question:
+      "4. The property in CSS used to change the background color of an element is ",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: false },
+      { id: 2, ansText: "backgroundColor", isTrue: false },
+      { id: 3, ansText: "background-color", isTrue: true },
+    ],
+  },
+  {
+    id: 4,
+    question: "5. We can change the text color using",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: true },
+      { id: 2, ansText: "background-color", isTrue: false },
+      { id: 3, ansText: "All of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 5,
+    question: "6. How to controll the elements font size",
+    answerOptions: [
+      { id: 0, ansText: "text-style", isTrue: false },
+      { id: 1, ansText: "text-syze", isTrue: false },
+      { id: 2, ansText: "font-size", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: true },
+    ],
+  },
+  {
+    id: 6,
+    question: "7. HTML attribute used to define the inline styled is",
+    answerOptions: [
+      { id: 0, ansText: "style ", isTrue: true },
+      { id: 1, ansText: "styled", isTrue: false },
+      { id: 2, ansText: "class", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 7,
+    question: "8. CSS property to change text bold is",
+    answerOptions: [
+      { id: 0, ansText: "weight", isTrue: false },
+      { id: 1, ansText: "bold", isTrue: false },
+      { id: 2, ansText: "font-boldness", isTrue: false },
+      { id: 3, ansText: "font-weight", isTrue: true },
+    ],
+  },
+  {
+    id: 8,
+    question: "9. Property used to specify the transparency of an element is",
+    answerOptions: [
+      { id: 0, ansText: "transparent", isTrue: false },
+      { id: 2, ansText: "opacity", isTrue: true },
+      { id: 1, ansText: "filter", isTrue: false },
+      { id: 3, ansText: "visibility", isTrue: false },
+    ],
+  },
+  {
+    id: 9,
+    question: "10. How to select element with class name?",
+    answerOptions: [
+      { id: 0, ansText: ".element", isTrue: true },
+      { id: 1, ansText: "#element", isTrue: false },
+      { id: 2, ansText: "~element", isTrue: false },
+      { id: 3, ansText: "^element", isTrue: false },
+    ],
+  },
+];
+
+export const datascience = [
   {
     id: 0,
     question: "1. CSS stans for",
