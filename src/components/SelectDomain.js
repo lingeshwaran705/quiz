@@ -21,8 +21,8 @@ function Home() {
     },
     {
       id: 2,
-      name: "Blockchain",
-      route: "blockchain",
+      name: "IoT",
+      route: "iot",
     },
   ];
   const navigate = useNavigate();

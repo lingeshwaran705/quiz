@@ -1,7 +1,8 @@
 import React from "react";
-
+import Template from "./Template";
+import { iot } from "../Data";
 function Iot() {
-  return <div></div>;
+  return <Template data={iot} />;
 }
 
 export default Iot;
