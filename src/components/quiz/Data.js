@@ -223,7 +223,7 @@ export const web = [
   },
   {
     id: 21,
-    question: "22. Worlds fastest JS Engine",
+    question: "22. World's fastest JS Engine",
     answerOptions: [
       { id: 0, ansText: "V8", isTrue: true },
       { id: 1, ansText: "V9", isTrue: false },
@@ -313,7 +313,7 @@ export const web = [
   },
   {
     id: 30,
-    question: "31. In JS functions can be created using",
+    question: "31. In JS, functions can be created using",
     answerOptions: [
       { id: 0, ansText: "def", isTrue: false },
       { id: 1, ansText: "function", isTrue: true },
@@ -355,8 +355,8 @@ export const web = [
     id: 34,
     question: "35. iframe in HTML is used to display a/an",
     answerOptions: [
-      { id: 0, ansText: "element with an element", isTrue: true },
-      { id: 1, ansText: "document with a document", isTrue: false },
+      { id: 0, ansText: "element with an element", isTrue: false },
+      { id: 1, ansText: "document with a document", isTrue: true },
       { id: 2, ansText: "body", isTrue: false },
       { id: 3, ansText: "not defined", isTrue: false },
     ],
@@ -2884,6 +2884,460 @@ export const datascience = [
       { id: 1, ansText: "ReLu", isTrue: false },
       { id: 2, ansText: "sine", isTrue: true },
       { id: 3, ansText: "sigmoid", isTrue: false },
+    ],
+  },
+];
+
+export const robotics = [
+  {
+    id: 0,
+    question: "1. Robot is derived from Czech word",
+    answerOptions: [
+      { id: 0, ansText: "Robota", isTrue: true },
+      { id: 1, ansText: "Rabota", isTrue: false },
+      { id: 2, ansText: "Ribota", isTrue: false },
+      { id: 3, ansText: "Rebota", isTrue: false },
+    ],
+  },
+  {
+    id: 1,
+    question:
+      "2. Which among the following is not the functionality of Robots?",
+    answerOptions: [
+      { id: 0, ansText: "Multifunctinality", isTrue: false },
+      { id: 1, ansText: "Reprogrammability", isTrue: false },
+      { id: 2, ansText: "Efficient Performance", isTrue: true },
+      { id: 3, ansText: "Responsibility", isTrue: false },
+    ],
+  },
+
+  {
+    id: 2,
+    question: "3. AVG Robot is placed in which of the following category?",
+    answerOptions: [
+      { id: 0, ansText: "A Mobile Robot", isTrue: true },
+      { id: 1, ansText: "A Saturated Robot", isTrue: false },
+      {
+        id: 2,
+        ansText: "An Unsaturated Robot",
+        isTrue: false,
+      },
+      {
+        id: 3,
+        ansText: "A Natural Robot",
+        isTrue: false,
+      },
+    ],
+  },
+  {
+    id: 3,
+    question: "4.   Which of the following is a serial Robot?",
+    answerOptions: [
+      { id: 0, ansText: "In House Robot", isTrue: false },
+      { id: 1, ansText: "Commercial Robot", isTrue: false },
+      { id: 2, ansText: "Indestrial Robot", isTrue: true },
+      { id: 3, ansText: "None of these", isTrue: false },
+    ],
+  },
+  {
+    id: 4,
+    question: "5. The Robot designed with Cartesian coordinate systems has",
+    answerOptions: [
+      {
+        id: 0,
+        ansText: "Two linear and one rotational movement",
+        isTrue: false,
+      },
+      {
+        id: 1,
+        ansText: "Two rotational and one linear movement",
+        isTrue: false,
+      },
+      { id: 2, ansText: "Three rotational movements", isTrue: false },
+      { id: 3, ansText: "Three linear movements", isTrue: true },
+    ],
+  },
+  {
+    id: 5,
+    question:
+      "6. Which part of the Robot provides motion to the manipulator and end-effectors?",
+    answerOptions: [
+      { id: 0, ansText: "Controller", isTrue: false },
+      { id: 1, ansText: "Sensor", isTrue: false },
+      { id: 2, ansText: "Actuator", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 6,
+    question: "7. Which of the following is not an Actuator",
+    answerOptions: [
+      { id: 0, ansText: "Digital Actuator", isTrue: true },
+      { id: 1, ansText: "Pneumatic Actuator", isTrue: false },
+      { id: 2, ansText: "Hydraulic and Electric Actuator", isTrue: false },
+      { id: 3, ansText: "None of these", isTrue: false },
+    ],
+  },
+
+  {
+    id: 7,
+    question: "8. Physical structure of robot which moves around, is called",
+    answerOptions: [
+      { id: 0, ansText: "End-effector", isTrue: false },
+      { id: 1, ansText: "Joints", isTrue: false },
+      { id: 2, ansText: "Manipulator", isTrue: true },
+      { id: 3, ansText: "Links", isTrue: false },
+    ],
+  },
+  {
+    id: 8,
+    question: "9. Issac Asimov created how many Laws of Robotics?",
+    answerOptions: [
+      { id: 0, ansText: "Five", isTrue: false },
+      { id: 2, ansText: "Three", isTrue: true },
+      { id: 1, ansText: "None", isTrue: false },
+      { id: 3, ansText: "Two", isTrue: false },
+    ],
+  },
+  {
+    id: 9,
+    question: "10. Who is known as the Father of Robotics?",
+    answerOptions: [
+      { id: 0, ansText: "Lonnie Johnson", isTrue: false },
+      { id: 1, ansText: "Joseph F. Engelberger", isTrue: true },
+      { id: 2, ansText: "Nils Nilsson", isTrue: false },
+      { id: 3, ansText: "Isaac Asimov", isTrue: false },
+    ],
+  },
+
+  {
+    id: 10,
+    question:
+      "11. George Devol and Joe Engelberger created the First Industrial Robots known as",
+    answerOptions: [
+      { id: 0, ansText: "Asimo", isTrue: false },
+      { id: 1, ansText: "Spirit", isTrue: false },
+      { id: 2, ansText: "Unimates", isTrue: true },
+      { id: 3, ansText: "Sophia", isTrue: false },
+    ],
+  },
+  {
+    id: 11,
+    question: "12. The beginnings of robotics can be traced to:",
+    answerOptions: [
+      { id: 0, ansText: "Archytas of Tarentum", isTrue: false },
+      { id: 1, ansText: "Einstein", isTrue: false },
+      { id: 2, ansText: "Ctesbius", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 12,
+    question: "13. What does the Zeroth Law state?",
+    answerOptions: [
+      {
+        id: 0,
+        ansText: "A robot may take decisions on its own accordance",
+        isTrue: false,
+      },
+      {
+        id: 1,
+        ansText:
+          "A robot may not injure humanity, or, through inaction, allow humanity to come to harm",
+        isTrue: true,
+      },
+      {
+        id: 2,
+        ansText:
+          "A robot must obey the orders given to it by human beings (...)",
+        isTrue: false,
+      },
+      {
+        id: 3,
+        ansText:
+          "A robot must protect its own existence as long as such protection (...)",
+        isTrue: false,
+      },
+    ],
+  },
+  {
+    id: 13,
+    question: "14. The main objective(s) of industrial robot is to",
+    answerOptions: [
+      { id: 0, ansText: " To minimize the labour requirement", isTrue: false },
+      { id: 1, ansText: "To increase productivity", isTrue: false },
+      {
+        id: 2,
+        ansText: "To enhance the life of production machines",
+        isTrue: false,
+      },
+      { id: 3, ansText: "All of the mentioned", isTrue: true },
+    ],
+  },
+
+  {
+    id: 14,
+    question: "15.   The following is true for a Robot and NC Machine",
+    answerOptions: [
+      {
+        id: 0,
+        ansText: " Similar power drive technology is used in both",
+        isTrue: true,
+      },
+      {
+        id: 1,
+        ansText: "Different feedback systems are used in both",
+        isTrue: false,
+      },
+      { id: 2, ansText: "Programming is same for both", isTrue: false },
+      { id: 3, ansText: "All of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 15,
+    question:
+      "16. Which of the following work is done by General purpose robot?",
+    answerOptions: [
+      { id: 0, ansText: "Part picking", isTrue: false },
+      { id: 1, ansText: " Welding", isTrue: false },
+      { id: 2, ansText: "Spray painting", isTrue: false },
+      { id: 3, ansText: "All of the mentioned", isTrue: true },
+    ],
+  },
+  {
+    id: 16,
+    question:
+      "17. Which of the following sensors determines the relationship of the robot ans its environment and the objects handled by it",
+    answerOptions: [
+      { id: 0, ansText: "Internal state sensors", isTrue: false },
+      { id: 1, ansText: " External state sensors", isTrue: true },
+      { id: 2, ansText: "Both a and b", isTrue: false },
+      { id: 3, ansText: "None of these", isTrue: false },
+    ],
+  },
+  {
+    id: 17,
+    question: "18. Why do robot need sensor?",
+    answerOptions: [
+      {
+        id: 0,
+        ansText: " To collect information from environment",
+        isTrue: false,
+      },
+      {
+        id: 1,
+        ansText: "To map environment atribute to a quantitative measurement",
+        isTrue: false,
+      },
+      { id: 2, ansText: "Only option 1 is true", isTrue: false },
+      { id: 3, ansText: "Both option 1 and 2 are true", isTrue: true },
+    ],
+  },
+  {
+    id: 18,
+    question:
+      "19. What is necessity for a lot of sensible mobile robotics function",
+    answerOptions: [
+      { id: 0, ansText: "Map discovery", isTrue: true },
+      { id: 1, ansText: "Geometric maps", isTrue: false },
+      { id: 2, ansText: "Perceptual maps", isTrue: false },
+      { id: 3, ansText: "Sensorial maps", isTrue: false },
+    ],
+  },
+  {
+    id: 19,
+    question:
+      "20. What is the name for information sent from robot sensors to robot controllers? ",
+    answerOptions: [
+      { id: 0, ansText: "Signal", isTrue: true },
+      { id: 1, ansText: "Temperature", isTrue: false },
+      { id: 2, ansText: "Pressure", isTrue: false },
+      { id: 3, ansText: "Feedback", isTrue: false },
+    ],
+  },
+  {
+    id: 20,
+    question:
+      "21. A robot that is attached to a controller or computer by a cord is a(n)",
+    answerOptions: [
+      { id: 0, ansText: "autonomous robot", isTrue: false },
+      { id: 1, ansText: "remote control robot", isTrue: false },
+      { id: 2, ansText: "tethered robot", isTrue: true },
+      { id: 3, ansText: "artificial intelligence robot", isTrue: false },
+    ],
+  },
+  {
+    id: 21,
+    question:
+      "22. Which of the following statements concerning the implementation of robotic systems is correct?",
+    answerOptions: [
+      {
+        id: 0,
+        ansText: "Implementation of robots can save existing jobs",
+        isTrue: false,
+      },
+      {
+        id: 1,
+        ansText: "implementation of robots can create new jobs",
+        isTrue: false,
+      },
+      {
+        id: 2,
+        ansText: "Robotics could prevent a business from closing",
+        isTrue: false,
+      },
+      { id: 3, ansText: "All of the mentioned", isTrue: true },
+    ],
+  },
+
+  {
+    id: 22,
+    question:
+      "23. Nils Nilsson headed a team at SRI that created a mobile robot named",
+    answerOptions: [
+      { id: 0, ansText: "Vax", isTrue: false },
+      { id: 1, ansText: "Robotics", isTrue: false },
+      { id: 2, ansText: "Dedalus", isTrue: false },
+      { id: 3, ansText: "Shakey", isTrue: true },
+    ],
+  },
+
+  {
+    id: 23,
+    question: "24. Areas Where robotics can be applied",
+    answerOptions: [
+      { id: 0, ansText: "Military Area", isTrue: false },
+      { id: 1, ansText: "Domestic Area", isTrue: false },
+      { id: 2, ansText: "Researches", isTrue: false },
+      { id: 3, ansText: "All the above", isTrue: true },
+    ],
+  },
+  {
+    id: 24,
+    question: "25. What do you understand by Humanoid robot?",
+    answerOptions: [
+      {
+        id: 0,
+        ansText: "Robot which looks like overall as a Human",
+        isTrue: false,
+      },
+      {
+        id: 1,
+        ansText:
+          " A robot robot which have human facial expression with the features",
+        isTrue: false,
+      },
+      { id: 2, ansText: "Both A & B", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 25,
+    question: "26. Implementation of AI in the robots makes a robot",
+    answerOptions: [
+      { id: 0, ansText: "To solve problem", isTrue: false },
+      { id: 1, ansText: "To continuously do a task", isTrue: false },
+      { id: 2, ansText: " Only option A", isTrue: true },
+      { id: 3, ansText: " None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 26,
+    question:
+      "27. Field of study which defines an interaction or communication between a robot and Human is called",
+    answerOptions: [
+      { id: 0, ansText: "Person-Machine interaction", isTrue: false },
+      { id: 1, ansText: "People - Robot interaction", isTrue: false },
+      { id: 2, ansText: " Human -Robot interaction", isTrue: true },
+      { id: 3, ansText: "Robot-robot interaction", isTrue: false },
+    ],
+  },
+  {
+    id: 27,
+    question:
+      "28. In Robotics servo motor and electric motor can be replaced by",
+    answerOptions: [
+      { id: 0, ansText: "Controllers", isTrue: false },
+      { id: 1, ansText: " Cylinder piston", isTrue: false },
+      { id: 2, ansText: "Pneumatic system", isTrue: true },
+      { id: 3, ansText: " None of the above", isTrue: false },
+    ],
+  },
+
+  {
+    id: 28,
+    question:
+      "29. Freedom of movement of the mechanical parts of a robot is known by the term",
+    answerOptions: [
+      { id: 0, ansText: "Freedom of movement", isTrue: false },
+      { id: 1, ansText: "Degree of freedom", isTrue: true },
+      { id: 2, ansText: "Big Movement", isTrue: false },
+      { id: 3, ansText: "All of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 29,
+    question: "30. Axes of movement of the robot are?",
+    answerOptions: [
+      { id: 0, ansText: "Wrist rotation", isTrue: false },
+      { id: 1, ansText: "X-y coordinate motion", isTrue: false },
+      { id: 2, ansText: "Elbow rotation", isTrue: false },
+      { id: 3, ansText: "All the above", isTrue: true },
+    ],
+  },
+  {
+    id: 30,
+    question: "31. Select the industry which highly uses robots?",
+    answerOptions: [
+      { id: 0, ansText: "Medical industry", isTrue: false },
+      { id: 1, ansText: "Small scale industry", isTrue: false },
+      { id: 2, ansText: "Military", isTrue: false },
+      { id: 3, ansText: "Automobile industry", isTrue: true },
+    ],
+  },
+  {
+    id: 31,
+    question: "32. Which is used as the brain of the robot",
+    answerOptions: [
+      { id: 0, ansText: "CPU", isTrue: false },
+      { id: 1, ansText: "Microprocessor", isTrue: false },
+      { id: 2, ansText: "SOC", isTrue: false },
+      { id: 3, ansText: "Microcontroller", isTrue: true },
+    ],
+  },
+  {
+    id: 32,
+    question: "33. What is RPA?",
+    answerOptions: [
+      { id: 0, ansText: "Robotics Programming and Automation", isTrue: false },
+      { id: 1, ansText: "Robotic Processor Autocad", isTrue: false },
+      { id: 2, ansText: "Rotation Per Anum", isTrue: false },
+      { id: 3, ansText: "Robotic Process Automation", isTrue: true },
+    ],
+  },
+  {
+    id: 33,
+    question:
+      "34. In RPA Which is a set of tools that includes libraries and runtime environments?",
+    answerOptions: [
+      { id: 0, ansText: "Redprism", isTrue: false },
+      { id: 1, ansText: "Alexandria", isTrue: false },
+      { id: 2, ansText: "Koha", isTrue: false },
+      { id: 3, ansText: "Blueprism", isTrue: true },
+    ],
+  },
+  {
+    id: 34,
+    question: "35. Freedom of movement can be determined by",
+    answerOptions: [
+      { id: 0, ansText: "Number of movable joints in the base", isTrue: false },
+      { id: 1, ansText: "Number of movable joints in the arm", isTrue: false },
+      {
+        id: 2,
+        ansText: "Number of movable joints in end effector",
+        isTrue: false,
+      },
+      { id: 3, ansText: "All the above", isTrue: true },
     ],
   },
 ];

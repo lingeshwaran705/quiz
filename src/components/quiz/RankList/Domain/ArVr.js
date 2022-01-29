@@ -1,12 +1,12 @@
 import React from "react";
 import Template from "./Template";
 
-function Blockchain() {
+function Web() {
   return (
     <>
-      <Template db="blockchain" />
+      <Template db="arvr" />
     </>
   );
 }
 
-export default Blockchain;
+export default Web;

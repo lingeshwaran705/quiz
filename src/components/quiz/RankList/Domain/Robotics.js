@@ -1,9 +1,12 @@
 import React from "react";
 import Template from "./Template";
-import { arvr } from "../Data";
 
 function App() {
-  return <Template data={arvr} />;
+  return (
+    <>
+      <Template db="robotics" />
+    </>
+  );
 }
 
 export default App;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Card from "./Card";
 import { useNavigate } from "react-router-dom";
@@ -20,9 +20,33 @@ const data = [
   },
   {
     id: 3,
-    title: "Blockchain",
-    src: "/images/blockchain.jpg",
-    route: "blockchain",
+    title: "AR/VR",
+    src: "/images/ar-vr.jpeg",
+    route: "arvr",
+  },
+  {
+    id: 4,
+    title: "Iot",
+    src: "/images/iot.jfif",
+    route: "iot",
+  },
+  {
+    id: 5,
+    title: "Data Science",
+    src: "/images/dataScience.jpg",
+    route: "datascience",
+  },
+  {
+    id: 6,
+    title: "Cyber Security",
+    src: "/images/cyber.jpg",
+    route: "cyber",
+  },
+  {
+    id: 7,
+    title: "Robotics",
+    src: "/images/robotics.jpg",
+    route: "robotics",
   },
 ];
 
@@ -30,6 +54,28 @@ function Rank() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [open, setOpen] = useState(false);
+  const [time, setTime] = useState({ hour: "", min: "", sec: "" });
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      const date = new Date();
+      setTime({
+        hour: date.getHours(),
+        min: date.getMinutes(),
+        sec: date.getSeconds(),
+      });
+      return () => {
+        clearInterval(timer);
+      };
+    }, 1000);
+  }, []);
+
+  useEffect(() => {
+    if (time.hour === 1) {
+      setOpen(true);
+    }
+  }, [time.hour]);
+
   const clickHandler = () => {
     navigate("/");
     dispatch(ifSubmit(false));
@@ -55,7 +101,9 @@ function Rank() {
         </Wrap>
       ) : (
         <Error>
-          <h1>Result Will be published soon</h1>
+          <h1>
+            We will open the result sharply by <span>1:00 PM</span>
+          </h1>
         </Error>
       )}
     </>
@@ -75,6 +123,12 @@ const Error = styled.div`
     padding: 20px;
     text-align: center;
     color: white;
+    span {
+      font-size: 30px;
+      color: blue;
+      display: block;
+      padding: 20px;
+    }
   }
 `;
 

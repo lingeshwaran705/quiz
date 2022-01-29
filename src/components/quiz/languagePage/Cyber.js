@@ -1,9 +1,9 @@
 import React from "react";
 import Template from "./Template";
-import { arvr } from "../Data";
+import { cyber } from "../Data";
 
 function App() {
-  return <Template data={arvr} />;
+  return <Template data={cyber} />;
 }
 
 export default App;

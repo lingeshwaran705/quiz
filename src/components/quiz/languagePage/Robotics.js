@@ -1,7 +1,8 @@
 import React from "react";
-
-function Robotics() {
-  return <div></div>;
+import Template from "./Template";
+import { robotics } from "../Data";
+function Iot() {
+  return <Template data={robotics} />;
 }
 
-export default Robotics;
+export default Iot;

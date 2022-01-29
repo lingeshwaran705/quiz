@@ -12,8 +12,8 @@ function Home() {
         <ul>
           <li>
             It is mandatory to enter your roll no followed by your name.
-            <br /> Eg
-            <b style={{ color: "blue", paddingTop: "5px" }}> 2101131name</b>
+            <br />
+            <b style={{ color: "blue", paddingTop: "5px" }}>Eg. 2101131name</b>
           </li>
           <li>
             Don't put any special characters between the roll number and your
@@ -21,7 +21,6 @@ function Home() {
           </li>
           <li>You can choose multiple domains </li>
           <li>You can't able to attend the same domain more than one time</li>
-          <li>You have 45 questions per each domain </li>
           <li>For each question you have 30s to complete it</li>
           <li>
             If you refress the page in between of the quiz it never permit you

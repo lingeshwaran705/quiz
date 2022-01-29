@@ -7,11 +7,16 @@ import App from "./components/quiz/languagePage/App";
 import Web from "./components/quiz/languagePage/Web";
 import Iot from "./components/quiz/languagePage/Iot";
 import ArVr from "./components/quiz/languagePage/ArVr";
+import Cyber from "./components/quiz/languagePage/Cyber";
 import DataScience from "./components/quiz/languagePage/DataScience";
 import Robotics from "./components/quiz/languagePage/Robotics";
 import WebResult from "./components/quiz/RankList/Domain/Web";
 import AppResult from "./components/quiz/RankList/Domain/App";
-import BlockchainResult from "./components/quiz/RankList/Domain/Blockchain";
+import IotResult from "./components/quiz/RankList/Domain/Iot";
+import CyberResult from "./components/quiz/RankList/Domain/Cyber";
+import ArVrResult from "./components/quiz/RankList/Domain/ArVr";
+import RoboResult from "./components/quiz/RankList/Domain/Robotics";
+import DataScienceResult from "./components/quiz/RankList/Domain/DataScience";
 const Rank = lazy(() => import("./components/quiz/RankList/Rank"));
 
 function RoutePage() {
@@ -33,10 +38,15 @@ function RoutePage() {
           <Route path="/quiz/iot" element={<Iot />} />
           <Route path="/quiz/datascience" element={<DataScience />} />
           <Route path="/quiz/robotics" element={<Robotics />} />
+          <Route path="/quiz/cyber" element={<Cyber />} />
           <Route path="/rank" element={<Rank />} />
-          {/* <Route path="/rank/webdev" element={<WebResult />} />
+          <Route path="/rank/webdev" element={<WebResult />} />
           <Route path="/rank/appdev" element={<AppResult />} />
-          <Route path="/rank/blockchain" element={<BlockchainResult />} /> */}
+          <Route path="/rank/iot" element={<IotResult />} />
+          <Route path="/rank/datascience" element={<DataScienceResult />} />
+          <Route path="/rank/arvr" element={<ArVrResult />} />
+          <Route path="/rank/cyber" element={<CyberResult />} />
+          <Route path="/rank/robotics" element={<RoboResult />} />
         </Routes>
       </Router>
     </Suspense>

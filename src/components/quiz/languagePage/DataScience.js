@@ -1,7 +1,9 @@
 import React from "react";
+import Template from "./Template";
+import { datascience } from "../Data";
 
-function DataScience() {
-  return <div></div>;
+function App() {
+  return <Template data={datascience} />;
 }
 
-export default DataScience;
+export default App;
