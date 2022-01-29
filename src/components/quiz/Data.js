@@ -363,7 +363,426 @@ export const web = [
   },
 ];
 
-export const blockchain = [
+export const app = [
+  {
+    id: 0,
+    question: "1. Android is a/an",
+    answerOptions: [
+      { id: 0, ansText: "Web browser", isTrue: false },
+      { id: 1, ansText: "Operating System", isTrue: true },
+      { id: 2, ansText: "Web server", isTrue: false },
+      { id: 3, ansText: "None of these", isTrue: false },
+    ],
+  },
+  {
+    id: 1,
+    question: "2. Android is licenced under",
+    answerOptions: [
+      { id: 0, ansText: "Apache/MIT", isTrue: true },
+      { id: 1, ansText: "OSS", isTrue: false },
+      { id: 2, ansText: "Sourceforge", isTrue: false },
+      { id: 3, ansText: "None of these", isTrue: false },
+    ],
+  },
+  {
+    id: 2,
+    question:
+      "3. Which of the following is the first mobile phone released that ran the Anfroid OS?",
+    answerOptions: [
+      { id: 0, ansText: "HTC hero", isTrue: false },
+      { id: 1, ansText: "Google gPhone", isTrue: false },
+      { id: 2, ansText: "iPhone", isTrue: false },
+      { id: 3, ansText: "T-Mobile G1", isTrue: true },
+    ],
+  },
+  {
+    id: 3,
+    question:
+      "4. Which of the following virtual machine is used by the Android operating system?",
+    answerOptions: [
+      { id: 0, ansText: "JVM", isTrue: false },
+      { id: 1, ansText: "Simple virtual machine", isTrue: false },
+      { id: 2, ansText: "Dalvik virtual machine", isTrue: true },
+      { id: 3, ansText: "SDK", isTrue: false },
+    ],
+  },
+  {
+    id: 4,
+    question: "5. Android is based on which of the following language?",
+    answerOptions: [
+      { id: 0, ansText: "Java", isTrue: true },
+      { id: 1, ansText: "Java Script", isTrue: false },
+      { id: 2, ansText: "Python", isTrue: false },
+      { id: 3, ansText: "C", isTrue: false },
+    ],
+  },
+  {
+    id: 5,
+    question: "6. APK stands for ",
+    answerOptions: [
+      { id: 0, ansText: "Android Phone Kit", isTrue: false },
+      { id: 1, ansText: "Android Package Kit", isTrue: true },
+      { id: 2, ansText: "Android Page Kit", isTrue: false },
+      { id: 3, ansText: "Application Programming Kit", isTrue: false },
+    ],
+  },
+  {
+    id: 6,
+    question: "7. What is API? ",
+    answerOptions: [
+      { id: 0, ansText: "Android Programming Interface", isTrue: false },
+      { id: 1, ansText: "Application Programming Interface", isTrue: true },
+      { id: 2, ansText: "Application Page Interface", isTrue: false },
+      { id: 3, ansText: "Android page Interface", isTrue: false },
+    ],
+  },
+  {
+    id: 7,
+    question:
+      "8.  Which of the following converts Java byte code into Dalvik byte code?",
+    answerOptions: [
+      { id: 0, ansText: "Dalvik converter", isTrue: false },
+      { id: 1, ansText: "MIC", isTrue: false },
+      { id: 2, ansText: "DEX compiler", isTrue: true },
+      { id: 3, ansText: "MVC", isTrue: false },
+    ],
+  },
+  {
+    id: 8,
+    question: "9. We can stop the services in android by",
+    answerOptions: [
+      { id: 0, ansText: "stop()", isTrue: false },
+      { id: 2, ansText: "finish()", isTrue: false },
+      { id: 1, ansText: "system.exit()", isTrue: false },
+      { id: 3, ansText: "stopSelf() and storService()", isTrue: true },
+    ],
+  },
+  {
+    id: 9,
+    question: "10. What does ADB means?",
+    answerOptions: [
+      { id: 0, ansText: "Android destory bridge", isTrue: false },
+      { id: 1, ansText: "Android delete bridge", isTrue: false },
+      { id: 2, ansText: "Android debug bridge", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 10,
+    question:
+      "11.  On which of the following, developers can test the application, during developing the android applications?",
+    answerOptions: [
+      { id: 0, ansText: "Third-party emulators", isTrue: false },
+      { id: 1, ansText: "Emulator included in Android SDK", isTrue: false },
+      { id: 2, ansText: "Physical android phone", isTrue: false },
+      { id: 3, ansText: "All of these", isTrue: true },
+    ],
+  },
+  {
+    id: 11,
+    question: "12. Which of the following kernel is used in Android?",
+    answerOptions: [
+      { id: 0, ansText: "Linux", isTrue: true },
+      { id: 1, ansText: "MAC", isTrue: false },
+      { id: 2, ansText: "Redhat", isTrue: false },
+      { id: 3, ansText: "Windows", isTrue: false },
+    ],
+  },
+  {
+    id: 12,
+    question:
+      "13. Which of the following is the first callback method that is invoked by the system during an activity life-cycle?",
+    answerOptions: [
+      { id: 0, ansText: "onClick()", isTrue: false },
+      { id: 1, ansText: "OnRestart()", isTrue: false },
+      { id: 2, ansText: "onStart()", isTrue: false },
+      { id: 3, ansText: "onCreate()", isTrue: true },
+    ],
+  },
+  {
+    id: 13,
+    question:
+      "4.  Which of the following is not an activity lifecycle callback method?",
+    answerOptions: [
+      { id: 0, ansText: "onCreate()", isTrue: false },
+      { id: 1, ansText: "onStart()", isTrue: false },
+      { id: 2, ansText: "onBackPressed()", isTrue: true },
+      { id: 3, ansText: "onClick()", isTrue: false },
+    ],
+  },
+  {
+    id: 14,
+    question: "15. AVD stands for?",
+    answerOptions: [
+      { id: 0, ansText: "Android Virtual device", isTrue: true },
+      { id: 1, ansText: "Active Virtual display", isTrue: false },
+      { id: 2, ansText: "Andorid Virtual display", isTrue: false },
+      { id: 3, ansText: "Active Virtual device", isTrue: false },
+    ],
+  },
+  {
+    id: 15,
+    question: "16. Does android support other languages than java?",
+    answerOptions: [
+      { id: 0, ansText: "No", isTrue: false },
+      { id: 1, ansText: "Yes", isTrue: true },
+      { id: 2, ansText: "May be", isTrue: false },
+      { id: 3, ansText: "Can't say", isTrue: false },
+    ],
+  },
+  {
+    id: 16,
+    question: "17. What is AAPT? ",
+    answerOptions: [
+      { id: 0, ansText: "Android Activity Packaging Tool", isTrue: false },
+      { id: 1, ansText: "Android Asset Packaging Tool", isTrue: true },
+      { id: 2, ansText: "Android Action Packaging Tool", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 17,
+    question: "18. NDK stands for?",
+    answerOptions: [
+      { id: 0, ansText: " New Development Kit", isTrue: false },
+      { id: 1, ansText: " Native Design Kit", isTrue: false },
+      { id: 2, ansText: " Native Development Kit", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 18,
+    question: "19. Which of the following is contained in the src folder?",
+    answerOptions: [
+      { id: 0, ansText: "JSON", isTrue: false },
+      { id: 2, ansText: "XML", isTrue: false },
+      { id: 1, ansText: "Manifest", isTrue: false },
+      { id: 3, ansText: "Source code", isTrue: true },
+    ],
+  },
+  {
+    id: 19,
+    question:
+      "20. Which of the following method is used to handle what happens after clicking a button?",
+    answerOptions: [
+      { id: 0, ansText: "onSelect()", isTrue: false },
+      { id: 1, ansText: "onCreate()", isTrue: false },
+      { id: 2, ansText: "onClick()", isTrue: true },
+      { id: 3, ansText: "None of these", isTrue: false },
+    ],
+  },
+  {
+    id: 20,
+    question: "21.  In which of the following tab an error is shown?",
+    answerOptions: [
+      { id: 0, ansText: "CPU", isTrue: false },
+      { id: 1, ansText: "ADB Logs", isTrue: false },
+      { id: 2, ansText: "Memory", isTrue: false },
+      { id: 3, ansText: "Logcat", isTrue: true },
+    ],
+  },
+  {
+    id: 21,
+    question: "22. Which of the following kernel is used in Android?",
+    answerOptions: [
+      { id: 0, ansText: "Linux", isTrue: true },
+      { id: 1, ansText: "MAC", isTrue: false },
+      { id: 2, ansText: "Redhat", isTrue: false },
+      { id: 3, ansText: "Windows", isTrue: false },
+    ],
+  },
+  {
+    id: 22,
+    question: "23. OHA in android stands for",
+    answerOptions: [
+      { id: 0, ansText: "Open Health Academy", isTrue: false },
+      { id: 1, ansText: "Open Handset Application", isTrue: false },
+      { id: 2, ansText: "Open Handser Association", isTrue: false },
+      { id: 3, ansText: "Open Handset Alliance", isTrue: true },
+    ],
+  },
+  {
+    id: 23,
+    question: "24. The topmost layer of android architecture?",
+    answerOptions: [
+      { id: 0, ansText: "Linux Kernel", isTrue: false },
+      { id: 1, ansText: "Application Framework", isTrue: false },
+      { id: 2, ansText: "Applications", isTrue: true },
+      { id: 3, ansText: "System Libraries", isTrue: false },
+    ],
+  },
+  {
+    id: 24,
+    question:
+      "25. Which of the layer is below the topmost layer of android architecture?",
+    answerOptions: [
+      { id: 0, ansText: "Linux Kernel", isTrue: false },
+      { id: 1, ansText: "Application Framework", isTrue: true },
+      { id: 2, ansText: "Applications", isTrue: false },
+      { id: 3, ansText: "System Libraries", isTrue: false },
+    ],
+  },
+  {
+    id: 25,
+    question:
+      "26. Which of the layer is the lowest layer of android architecture?",
+    answerOptions: [
+      { id: 0, ansText: "Linux Kernel", isTrue: true },
+      { id: 1, ansText: "Application Framework", isTrue: false },
+      { id: 2, ansText: "Applications", isTrue: false },
+      { id: 3, ansText: "System Libraries", isTrue: false },
+    ],
+  },
+  {
+    id: 26,
+    question:
+      "27. Which of the following is not a nickname of any android version?",
+    answerOptions: [
+      { id: 0, ansText: "Donut", isTrue: false },
+      { id: 1, ansText: "Muffin", isTrue: true },
+      { id: 2, ansText: "Honeycomb", isTrue: false },
+      { id: 3, ansText: "Cupcake", isTrue: false },
+    ],
+  },
+  {
+    id: 27,
+    question:
+      "28.  Which of the following is the built-in database of Android?",
+    answerOptions: [
+      { id: 0, ansText: "MySQL", isTrue: false },
+      { id: 1, ansText: " Oracle", isTrue: false },
+      { id: 2, ansText: "SQLite", isTrue: true },
+      { id: 3, ansText: "None of these", isTrue: false },
+    ],
+  },
+  {
+    id: 28,
+    question:
+      "29.  Which of the following android version is named Jelly Bean?",
+    answerOptions: [
+      { id: 0, ansText: "3.1", isTrue: false },
+      { id: 2, ansText: "2.1", isTrue: false },
+      { id: 1, ansText: "1.1", isTrue: false },
+      { id: 3, ansText: "4.1", isTrue: true },
+    ],
+  },
+  {
+    id: 29,
+    question:
+      "30. In Android studio, which of the following callback is called when an activity starts interacting with the user?",
+    answerOptions: [
+      { id: 0, ansText: "onDestroy", isTrue: false },
+      { id: 1, ansText: "onCreate", isTrue: false },
+      { id: 2, ansText: "onResume", isTrue: true },
+      { id: 3, ansText: "onStop", isTrue: false },
+    ],
+  },
+  {
+    id: 30,
+    question:
+      "31. Which of the following method is used by services to clean up any services?",
+    answerOptions: [
+      { id: 0, ansText: "onStop()", isTrue: false },
+      { id: 1, ansText: "onDestroy()", isTrue: true },
+      { id: 2, ansText: "stopService()", isTrue: false },
+      { id: 3, ansText: "stopSelf()", isTrue: false },
+    ],
+  },
+  {
+    id: 31,
+    question: "32. ANR in android stands for ",
+    answerOptions: [
+      { id: 0, ansText: "Application Not Rendering", isTrue: false },
+      { id: 1, ansText: "Android Notation Transform", isTrue: false },
+      { id: 2, ansText: "Application Not Reacting", isTrue: false },
+      { id: 3, ansText: "Application Not Responding", isTrue: true },
+    ],
+  },
+  {
+    id: 32,
+    question:
+      "33. Which of the following class in android executes the task asynchronously with your service?",
+    answerOptions: [
+      { id: 0, ansText: "SyncTask", isTrue: false },
+      { id: 1, ansText: "Await", isTrue: false },
+      { id: 2, ansText: "AsyncTask", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 33,
+    question:
+      "4. The property in CSS used to change the background color of an element is ",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: false },
+      { id: 2, ansText: "backgroundColor", isTrue: false },
+      { id: 3, ansText: "background-color", isTrue: true },
+    ],
+  },
+  {
+    id: 34,
+    question: "35. We can change the text color using",
+    answerOptions: [
+      { id: 0, ansText: "bgcolor", isTrue: false },
+      { id: 1, ansText: "color", isTrue: true },
+      { id: 2, ansText: "background-color", isTrue: false },
+      { id: 3, ansText: "All of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 35,
+    question: "36. How to controll the elements font size",
+    answerOptions: [
+      { id: 0, ansText: "text-style", isTrue: false },
+      { id: 1, ansText: "text-syze", isTrue: false },
+      { id: 2, ansText: "font-size", isTrue: true },
+      { id: 3, ansText: "None of the above", isTrue: true },
+    ],
+  },
+  {
+    id: 36,
+    question: "37. HTML attribute used to define the inline styled is",
+    answerOptions: [
+      { id: 0, ansText: "style ", isTrue: true },
+      { id: 1, ansText: "styled", isTrue: false },
+      { id: 2, ansText: "class", isTrue: false },
+      { id: 3, ansText: "None of the above", isTrue: false },
+    ],
+  },
+  {
+    id: 37,
+    question: "38. CSS property to change text bold is",
+    answerOptions: [
+      { id: 0, ansText: "weight", isTrue: false },
+      { id: 1, ansText: "bold", isTrue: false },
+      { id: 2, ansText: "font-boldness", isTrue: false },
+      { id: 3, ansText: "font-weight", isTrue: true },
+    ],
+  },
+  {
+    id: 38,
+    question: "39. Property used to specify the transparency of an element is",
+    answerOptions: [
+      { id: 0, ansText: "transparent", isTrue: false },
+      { id: 2, ansText: "opacity", isTrue: true },
+      { id: 1, ansText: "filter", isTrue: false },
+      { id: 3, ansText: "visibility", isTrue: false },
+    ],
+  },
+  {
+    id: 39,
+    question: "40. How to select element with class name?",
+    answerOptions: [
+      { id: 0, ansText: ".element", isTrue: true },
+      { id: 1, ansText: "#element", isTrue: false },
+      { id: 2, ansText: "~element", isTrue: false },
+      { id: 3, ansText: "^element", isTrue: false },
+    ],
+  },
+];
+
+export const Arvr = [
   {
     id: 0,
     question: "1. CSS stans for",
@@ -463,109 +882,6 @@ export const blockchain = [
       { id: 1, ansText: "#element", isTrue: false },
       { id: 2, ansText: "~element", isTrue: false },
       { id: 3, ansText: "^element", isTrue: false },
-    ],
-  },
-];
-
-export const app = [
-  {
-    id: 0,
-    question: "1. HTML is a ",
-    answerOptions: [
-      { id: 0, ansText: "Programming Language", isTrue: false },
-      { id: 1, ansText: "Scripting Language", isTrue: false },
-      { id: 2, ansText: "Markup Language", isTrue: true },
-      { id: 3, ansText: "None of the above", isTrue: false },
-    ],
-  },
-  {
-    id: 1,
-    question: "2. In HTML <> is called",
-    answerOptions: [
-      { id: 0, ansText: "Starting tag", isTrue: true },
-      { id: 1, ansText: "Close tag", isTrue: false },
-      { id: 2, ansText: "Element", isTrue: false },
-      { id: 3, ansText: "All the above", isTrue: false },
-    ],
-  },
-  {
-    id: 2,
-    question: "3. How to get input from the user",
-    answerOptions: [
-      { id: 0, ansText: "<input type='input'/>", isTrue: false },
-      { id: 1, ansText: "<input type='usrInput'/>", isTrue: false },
-      { id: 2, ansText: "<input type='user'/>", isTrue: false },
-      { id: 3, ansText: "<input type='text'/>", isTrue: true },
-    ],
-  },
-  {
-    id: 3,
-    question: "4. This give the extra information about the Element",
-    answerOptions: [
-      { id: 0, ansText: "id", isTrue: false },
-      { id: 1, ansText: "class name", isTrue: false },
-      { id: 2, ansText: "attributes", isTrue: true },
-      { id: 3, ansText: "tags", isTrue: false },
-    ],
-  },
-  {
-    id: 4,
-    question: "5. Choose an element",
-    answerOptions: [
-      { id: 0, ansText: "<p>Paragraph</p>", isTrue: true },
-      { id: 1, ansText: "<></>", isTrue: false },
-      { id: 2, ansText: "<>", isTrue: false },
-      { id: 3, ansText: "</>", isTrue: false },
-    ],
-  },
-  {
-    id: 5,
-    question: "6. Elements without a closing tag are called",
-    answerOptions: [
-      { id: 0, ansText: "empty elements", isTrue: false },
-      { id: 1, ansText: "Void elements", isTrue: true },
-      { id: 2, ansText: "Undefined elements", isTrue: false },
-      { id: 3, ansText: "all the above", isTrue: false },
-    ],
-  },
-  {
-    id: 6,
-    question: "7. How to display image in HTML",
-    answerOptions: [
-      { id: 0, ansText: "using <image/> ", isTrue: false },
-      { id: 1, ansText: "using <img/> ", isTrue: true },
-      { id: 2, ansText: "using <figure/> ", isTrue: false },
-      { id: 3, ansText: "None of the above", isTrue: false },
-    ],
-  },
-  {
-    id: 7,
-    question: "8. img tag is a ",
-    answerOptions: [
-      { id: 0, ansText: "undefined tag", isTrue: false },
-      { id: 1, ansText: "null tag", isTrue: false },
-      { id: 2, ansText: "Void tag", isTrue: true },
-      { id: 3, ansText: "Element tag", isTrue: false },
-    ],
-  },
-  {
-    id: 8,
-    question: "9. Void elements are also known as",
-    answerOptions: [
-      { id: 0, ansText: "Self contained tag", isTrue: false },
-      { id: 2, ansText: "Null tag", isTrue: false },
-      { id: 1, ansText: "Undefined tag", isTrue: false },
-      { id: 3, ansText: "Self closing tag", isTrue: true },
-    ],
-  },
-  {
-    id: 9,
-    question: "10. How to submit a from ",
-    answerOptions: [
-      { id: 0, ansText: "using end tag", isTrue: false },
-      { id: 1, ansText: "using submit tag", isTrue: false },
-      { id: 2, ansText: "using submit attribute", isTrue: true },
-      { id: 3, ansText: "None of the above", isTrue: false },
     ],
   },
 ];
